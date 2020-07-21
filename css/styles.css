@@ -1,0 +1,109 @@
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans';
+  color: #fff;
+  padding: 2% 3%;
+  line-height: 1.5;
+}
+
+p {
+  padding-right: 22%;
+  color: #dcdcdc;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 0 100px 0 0;
+}
+
+/* Header Section */
+.header {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+/* Main Section */
+.illustration {
+  width: 100%;
+}
+
+.intro-box {
+  margin-top: 40px;
+  padding: 0 3%;
+}
+
+.register-button {
+  border-radius: 30px;
+  width: 200px;
+  color: hsl(257, 40%, 49%);
+}
+
+/* Footer Section */
+.footer {
+  text-align: right;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.social-icon:hover {
+  color: #ef8172;
+}
+
+@media (max-width: 576px) {
+  background-image: url(../images/bg-mobile.svg);
+
+  .intro-title {
+    margin-top: 30px;
+  }
+
+  body {
+    padding: 7%;
+    text-align: center;
+  }
+
+  h1 {
+    font-weight: 400;
+    padding: 0;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 990px) {
+  .footer, .main, .intro-box {
+    text-align: center;
+  }
+
+  h1, p {
+    padding: 0 12%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  h1, .intro-box {
+    padding: 0;
+  }
+
+  p {
+    padding-right: 0;
+  }
+}
